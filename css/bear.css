@@ -2,11 +2,20 @@ html {
   background: url(../images/cliff.jpg) no-repeat top left;
 }
 
-#bear {
-  position: absolute;
+ #bear {
+  position:absolute;
   top: 100px;
-  right: 0;
+  right: 0px;
 }
 
-/* Write your solution here */
 
+/* Write your solution here */
+@media (max-width: 1196px) {
+  
+  #bear {
+  position:absolute;
+  top: 100px;
+  left: 750px;
+}
+
+}
